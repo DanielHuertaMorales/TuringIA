@@ -166,7 +166,7 @@
 
     .navbar-default .navbar-toggle:hover,
     .navbar-default .navbar-toggle:focus {
-        background: #e73131;
+        background: #45d2df;
         transition: all 0.5s;
         -moz-transition: all 0.5s;
         -o-transition: all 0.5s;
@@ -306,7 +306,7 @@
 
     .navbar-default .navbar-toggle:hover,
     .navbar-default .navbar-toggle:focus {
-        background: #e73131;
+        background: #45d2df;
         transition: all 0.5s;
         -moz-transition: all 0.5s;
         -o-transition: all 0.5s;

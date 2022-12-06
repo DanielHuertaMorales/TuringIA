@@ -1,9 +1,5 @@
 <!DOCTYPE html>
-<!--
-	Cosmix by TEMPLATE STOCK
-	templatestock.co @templatestock
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
+
 
 <html lang="en">
 <head>
@@ -28,19 +24,11 @@
 <link rel="stylesheet" type="text/css" href="../css/owl.carousel.css">
 <link rel="stylesheet" type="text/css" href="../css/owl.theme.css">
 <link rel="stylesheet" type="text/css" href="../css/owl.transitions.css">
-<!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-  [endif]-->
+
 </head>
 <body data-spy="scroll" data-target=".navbar-default" data-offset="100">
-<!--Preloader-->
-<!--<div id="preloader">
-  <div id="pre-status">
-    <div class="preload-placeholder"></div>
-  </div>
-</div>-->
-<!--Navigation-->
+
+<!--Barra de navegacion-->
 <header id="menu">
   <div class="navbar navbar-default navbar-fixed-top">
     <div class="container">
@@ -48,14 +36,13 @@
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-          <a class="navbar-brand" href="#menu"><img src="../images/Logo/turingia.png" alt=""></a> </div>
+          <a class="navbar-brand" href="../vista/index.html"><img src="../images/Logo/turingia.png" alt=""></a> </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li><a class="scroll" href="../vista/index.html">Inicio</a></li>
             <li><a class="scroll" href="../vista/queHacemos.html">Que hacemos</a></li>
             <li><a class="scroll" href="../vista/nosotros.html">Nosotros</a></li>
-            <li><a class="scroll" href="../vista/carreras.html">Carreras</a></li>
             <li class="active"><a class="scroll" href="../vista/contacto.php">Contacto</a></li>
           </ul>
         </div>
@@ -65,10 +52,10 @@
     </div>
   </div>
 </header>
-<!--Slider-Start-->
+<!--Fin barra de navegacion-->
 
 
-<!--Contact-Section-Start-->
+<!--Seccion contacto-->
 <section id="contact">
   <div class="container">
     <div class="col-md-8 col-md-offset-2">
@@ -97,6 +84,8 @@
       </div>
       <div class="col-md-6 col-sm-6">
 
+      <!-- Creacion de formulario con el id form-registro para ser mandado al archivo registro.js -->
+
         <form id="form-registro" class="contact-form">
           <div class="row  wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
 
@@ -115,7 +104,7 @@
           </div>
           
           <div class="form-group">
-            <input type="text" name="telefono" class="form-control" placeholder="Telefono" required="required">
+            <input type="number" name="telefono" class="form-control" placeholder="Telefono" required="required">
           </div>
           
           <div class="form-group">
@@ -160,8 +149,6 @@
 <script type="text/javascript" src="../js/bootstrap.js"></script>
 <!--Preetyphoto-Jquery-->
 <script type="text/javascript" src="../js/jquery.prettyPhoto.js"></script>
-<!--NiceScroll-Jquery-->
-<script type="text/javascript" src="../js/jquery.nicescroll.js"></script>
 <script type="text/javascript" src="../js/waypoints.min.js"></script>
 <!--Isotopes-->
 <script type="text/javascript" src="../js/jquery.isotope.js"></script>
@@ -177,6 +164,8 @@
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
 
+
+<!--Script con el cual se mandan los datos ingresados por el usuario una vez se haya seleccionado el boton enviar-->
 <script src="../controlador/registro.js"></script>    
 
 

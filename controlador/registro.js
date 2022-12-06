@@ -1,3 +1,4 @@
+/*El controlador recuada la información del formulario para ser utilizada en registrar.php*/
 $("#form-registro").submit(async function (e) {
     e.preventDefault();
     
@@ -6,6 +7,7 @@ $("#form-registro").submit(async function (e) {
     let telefono = e.target.telefono.value;
     let mensaje = e.target.mensaje.value;
 
+    /**/
     try {
         let url = "/TuringIA/controlador/registrar.php"
         let { data: result } = await axios.post(url, {
@@ -14,7 +16,7 @@ $("#form-registro").submit(async function (e) {
             telefono,
             mensaje,
         });
-        alert(`Su mensaje ha sido enviado correctamente.`)
+        alert(`Su mensaje ha sido enviado correctamente, nos pondremos en contacto.`)
         location.href = "/TuringIA/vista/index.html";
     } catch (error) {
         if(error.response) {

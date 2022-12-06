@@ -1,4 +1,5 @@
 <?php
+/*creacion del modelo para ser utilizado en la funcion createContacto*/ 
 
 include "../modelo/Contacto.php";
 include "../modelo/ContactoDAO.php";

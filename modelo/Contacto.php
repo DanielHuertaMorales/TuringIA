@@ -1,5 +1,5 @@
 <?php
-
+/*Creación del modelo Contacto*/ 
 class Contacto implements JsonSerializable{
     private string $nombre;
     private string $correo;

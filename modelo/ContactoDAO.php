@@ -1,6 +1,6 @@
 <?php
 
-
+/*Clase ContactoDAO, creacion de conexion con la base de datos turing-ia*/
 class ContactoDAO{
     public $mysqli;
     private $error;
@@ -26,6 +26,7 @@ class ContactoDAO{
         return $this->error;
     }
 
+    /*Funcion para crear una insercion en la tabla contacto de la base de datos turing-ia*/ 
     function createContacto(Contacto $contacto){
         try {
             //code...
