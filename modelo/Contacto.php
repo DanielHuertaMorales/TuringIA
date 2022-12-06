@@ -49,6 +49,9 @@ class Contacto implements JsonSerializable{
         return $this;
     }
 
+    public function JsonSerialize(){
+        return get_object_vars($this);
+    }
 
     function __toString()
     {

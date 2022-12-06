@@ -97,7 +97,7 @@
       </div>
       <div class="col-md-6 col-sm-6">
 
-        <form id="form-registro" class="contact-form" method="post" action="registro.php">
+        <form id="form-registro" class="contact-form">
           <div class="row  wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
 
             <div class="col-sm-6">
@@ -115,11 +115,11 @@
           </div>
           
           <div class="form-group">
-            <input type="tel" name="telefono" class="form-control" placeholder="Telefono" required="required">
+            <input type="text" name="telefono" class="form-control" placeholder="Telefono" required="required">
           </div>
           
           <div class="form-group">
-            <textarea name="mensaje" id="mensaje" class="form-control" rows="4" placeholder="Escribe tu mensaje" required="required"></textarea>
+            <textarea name="mensaje" class="form-control" rows="4" placeholder="Escribe tu mensaje" required="required"></textarea>
           </div>
           
           <button type="submit" class="form-submit">Enviar</button>
@@ -151,32 +151,39 @@
   </ul>
   <p> &copy; Copyright 2016 TuringIA</p>
 </footer>
-<!--Jquery-->
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<!--Boostrap-Jquery-->
-<script type="text/javascript" src="js/bootstrap.js"></script>
-<!--Preetyphoto-Jquery-->
-<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
-<!--NiceScroll-Jquery-->
-<script type="text/javascript" src="js/jquery.nicescroll.js"></script>
-<script type="text/javascript" src="js/waypoints.min.js"></script>
-<!--Isotopes-->
-<script type="text/javascript" src="js/jquery.isotope.js"></script>
-<!--Wow-Jquery-->
-<script type="text/javascript" src="js/wow.js"></script>
-<!--Count-Jquey-->
-<script type="text/javascript" src="js/jquery.countTo.js"></script>
-<script type="text/javascript" src="js/jquery.inview.min.js"></script>
-<!--Owl-Crousels-Jqury-->
-<script type="text/javascript" src="js/owl.carousel.js"></script>
-<!--Main-Scripts-->
-<script type="text/javascript" src="js/script.js"></script>
 
-    
-    <script src="../controlador/registro.js"></script>
+
+
+<!--Jquery-->
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<!--Boostrap-Jquery-->
+<script type="text/javascript" src="../js/bootstrap.js"></script>
+<!--Preetyphoto-Jquery-->
+<script type="text/javascript" src="../js/jquery.prettyPhoto.js"></script>
+<!--NiceScroll-Jquery-->
+<script type="text/javascript" src="../js/jquery.nicescroll.js"></script>
+<script type="text/javascript" src="../js/waypoints.min.js"></script>
+<!--Isotopes-->
+<script type="text/javascript" src="../js/jquery.isotope.js"></script>
+<!--Wow-Jquery-->
+<script type="text/javascript" src="../js/wow.js"></script>
+<!--Count-Jquey-->
+<script type="text/javascript" src="../js/jquery.countTo.js"></script>
+<script type="text/javascript" src="../js/jquery.inview.min.js"></script>
+<!--Owl-Crousels-Jqury-->
+<script type="text/javascript" src="../js/owl.carousel.js"></script>
+<!--Main-Scripts-->
+<script type="text/javascript" src="../js/script.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+
+<script src="../controlador/registro.js"></script>    
+
 
 </body>
+
 </html>
+
 
 <!-- Hosting24 Analytics Code -->
 <script type="text/javascript" src="http://stats.hosting24.com/count.php"></script>

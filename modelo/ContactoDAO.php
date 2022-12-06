@@ -1,6 +1,5 @@
 <?php
 
-use LDAP\Result;
 
 class ContactoDAO{
     public $mysqli;
