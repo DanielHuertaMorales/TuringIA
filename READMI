@@ -1,0 +1,13 @@
+La pagina que se presenta fue realizada a partir de una plantilla de html, en donde se utilizo como base, ya que 
+se fue transformando de acuerdo a lo que se me requerio usando mis habilidades y creativadad.
+
+Los lenguajes de front-end utilizados fueron HTML, css, JavaScript y bootstrap.
+Los lenguajes de back-end utilizados fueron Php y JavaScript.
+
+El modelo que se utilizo fue MVC para implentar un formulario de contacto el cual fue acompañado de una base de datos
+creada en MySql.
+
+Al realizar el desarrollo se utilizo el IDE VisualStudio Code, de igual forma se utilizo XAMPP para hacer uso de MySql
+y Apache.
+
+La base de datos se encuentra en la raíz del proyecto, lleva por nombre turing-ia, la cual contiene la tabla contacto.
