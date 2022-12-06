@@ -11,23 +11,23 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
-<title>TuringIA | Carreras</title>
+<title>TuringIA | Contacto</title>
 <!--Bootstrap-->
-<link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
 <!--Stylesheets-->
-<link rel="stylesheet" type="text/css" href="/css/style.css">
+<link rel="stylesheet" type="text/css" href="../css/style.css">
 <!--Responsive-->
-<link rel="stylesheet" type="text/css" href="/css/responsive.css">
+<link rel="stylesheet" type="text/css" href="../css/responsive.css">
 <!--Animation-->
-<link rel="stylesheet" type="text/css" href="/css/animate.css">
+<link rel="stylesheet" type="text/css" href="../css/animate.css">
 <!--Prettyphoto-->
-<link rel="stylesheet" type="text/css" href="/css/prettyPhoto.css">
+<link rel="stylesheet" type="text/css" href="../css/prettyPhoto.css">
 <!--Font-Awesome-->
-<link rel="stylesheet" type="text/css" href="/css/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
 <!--Owl-Slider-->
-<link rel="stylesheet" type="text/css" href="/css/owl.carousel.css">
-<link rel="stylesheet" type="text/css" href="/css/owl.theme.css">
-<link rel="stylesheet" type="text/css" href="/css/owl.transitions.css">
+<link rel="stylesheet" type="text/css" href="../css/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="../css/owl.theme.css">
+<link rel="stylesheet" type="text/css" href="../css/owl.transitions.css">
 <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -48,15 +48,15 @@
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-          <a class="navbar-brand" href="#menu"><img src="/images/Logo/turingia.png" alt=""></a> </div>
+          <a class="navbar-brand" href="#menu"><img src="../images/Logo/turingia.png" alt=""></a> </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li><a class="scroll" href="/vista/index.html">Inicio</a></li>
-            <li><a class="scroll" href="/vista/queHacemos.html">Que hacemos</a></li>
-            <li><a class="scroll" href="/vista/nosotros.html">Nosotros</a></li>
-            <li><a class="scroll" href="/vista/carreras.html">Carreras</a></li>
-            <li class="active"><a class="scroll" href="/vista/contacto.html">Contacto</a></li>
+            <li><a class="scroll" href="../vista/index.html">Inicio</a></li>
+            <li><a class="scroll" href="../vista/queHacemos.html">Que hacemos</a></li>
+            <li><a class="scroll" href="../vista/nosotros.html">Nosotros</a></li>
+            <li><a class="scroll" href="../vista/carreras.html">Carreras</a></li>
+            <li class="active"><a class="scroll" href="../vista/contacto.php">Contacto</a></li>
           </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -97,7 +97,7 @@
       </div>
       <div class="col-md-6 col-sm-6">
 
-        <form class="contact-form" method="post" action="registro.php">
+        <form id="form-registro" class="contact-form" method="post" action="registro.php">
           <div class="row  wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
 
             <div class="col-sm-6">
@@ -122,22 +122,24 @@
             <textarea name="mensaje" id="mensaje" class="form-control" rows="4" placeholder="Escribe tu mensaje" required="required"></textarea>
           </div>
           
-          <input type="submit" class="form-submit" href="#">Enviar</input>
+          <button type="submit" class="form-submit">Enviar</button>
         </form>
 
       </div>
     </div>
   </div>
 </section>
+<!--Footer seccion-->
+
 <footer id="footer">
   <div class="bg-sec">
     <div class="container">
-      <h2>LOOKING FORWARD TO <strong>HEARING </strong>FROM YOU!</h2>
+      <h2>Te estamos esperando, forma parte de nuestra historia</h2>
     </div>
   </div>
 </footer>
 <footer id="footer-down">
-  <h2>Follow Us On</h2>
+  <h2>Siguenos en nuestras redes sociales</h2>
   <ul class="social-icon">
     <li class="facebook hvr-pulse"><a href="#"><i class="fa fa-facebook-f"></i></a></li>
     <li class="twitter hvr-pulse"><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -147,7 +149,7 @@
     <li class="instagram hvr-pulse"><a href="#"><i class="fa fa-instagram"></i></a></li>
     <li class="behance hvr-pulse"><a href="#"><i class="fa fa-behance"></i></a></li>
   </ul>
-  <p> &copy; Copyright 2016 Cosmix - Created By : <a href="http://templatestock.co" target="_blank">Template Stock</a> </p>
+  <p> &copy; Copyright 2016 TuringIA</p>
 </footer>
 <!--Jquery-->
 <script type="text/javascript" src="js/jquery.min.js"></script>
@@ -169,6 +171,10 @@
 <script type="text/javascript" src="js/owl.carousel.js"></script>
 <!--Main-Scripts-->
 <script type="text/javascript" src="js/script.js"></script>
+
+    
+    <script src="../controlador/registro.js"></script>
+
 </body>
 </html>
 
